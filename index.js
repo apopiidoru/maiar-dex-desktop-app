@@ -31,12 +31,3 @@ app.on('window-all-closed', () => {
     app.quit();
   }
 });
-
-// function updateOnlineStatus () {
-//   alert(navigator.onLine ? 'online' : 'offline');
-// }
-
-// window.addEventListener('online', updateOnlineStatus)
-// window.addEventListener('offline', updateOnlineStatus)
-
-// updateOnlineStatus();
