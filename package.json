@@ -1,0 +1,26 @@
+{
+  "name": "maiar-dex-desktop-app",
+  "version": "1.0.0",
+  "description": "⚡ Maiar DEX Desktop Application ⚡",
+  "main": "index.js",
+  "author": "Apopii Dumitru <doru@fractaltech.ro>",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder -mwl",
+    "build:mac": "electron-builder --mac",
+    "build:win64": "electron-builder --win",
+    "build:linux": "electron-builder --linux"
+  },
+  "keywords": [
+    "Maiar Dex Desktop App"
+  ],
+  "build": {
+    "productName": "Maiar DEX",
+    "copyright": "Copyright © 2022 ${author}"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^16.0.7",
+    "electron-builder": "^22.14.5"
+  }
+}
