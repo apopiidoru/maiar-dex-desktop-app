@@ -5,6 +5,8 @@ the main idea behind it so to prevent the Maiar DEX users to log in and make tra
 
 Please let me know if you want some extra features implemented.
 
+*NOTE*: feel free to fork it or contribute.
+
 ## Install
 
 ```
